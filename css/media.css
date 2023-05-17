@@ -1,0 +1,170 @@
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .navbar-main{
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    .navbar-nav{
+        background-color: #ffffff;
+        z-index: 1;
+    }
+    .nav-li{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .navbar-nav .nav-li .nav-a::after {
+        left: 43%;
+        width: 14%;
+    }
+    .hero-left-item h1 {
+        font-size: 48px;
+    }
+    .tahapan-heading h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+    .pilihan-auditor-card-img {
+        height: 407px;
+    }
+}
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .navbar-main{
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    .navbar-nav{
+        background-color: #ffffff;
+        z-index: 1;
+    }
+    .nav-li{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .navbar-nav .nav-li .nav-a::after {
+        left: 43%;
+        width: 14%;
+    }
+    .hero-left-item h1 {
+        font-size: 34px;
+        line-height: 61px;
+    }
+    .hero-left-item {
+        margin-top: 4px;
+    }
+
+    .pillihan-right-button-item a{
+        font-size: 12px;
+    }
+    .tahapan-heading {
+        width: 100%;
+    }
+    .pillihan-right h2 {
+        font-size: 32px;
+    }
+    .hubungi-body {
+        flex-wrap: wrap;
+    }
+    .hubungi-call {
+        width: 100%;
+    }
+
+}
+@media (max-width: 575.98px){
+    .navbar-main{
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+    .nav-li{
+        text-align: center;
+        margin-bottom: 20px !important;
+    }
+    .navbar-nav .nav-li .nav-a::after {
+        left: 34%;
+        width: 30%;
+    }
+    #hero {
+        padding: 14px 0px;
+    }
+    .hero-left-item h1 {
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+    }
+    .hero-left-item p {
+        text-align: center;
+        width: 100%;
+    }
+    .location-item .location-btn {
+        width: 28%;
+    }
+    .tahapan-heading {
+        width: 100%;
+    }
+    .tahapan-heading h2 {
+        font-size: 18px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .pillihan-heading p {
+        text-align: center;
+    }
+    .pillihan-heading h1 {
+        text-align: center;
+    }
+    .pillihan-left-img-one{
+        width: 100%;
+    }
+    .pillihan-left .pillihan-left-img-two {
+        display: none;
+    }
+    .pillihan-right h2 {
+        font-size: 21px;
+        line-height: 39px;
+        text-align: center;
+        width: 100%;
+    }
+    .pillihan-right p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .pillihan-right-button-item{
+        width: 100%;
+    }
+    .pillihan-right-button-item a:hover::after {
+        height: 47px;
+    }
+    .pillihan-right-button-item a {
+        font-size: 11px;
+        padding: 12px 5px;
+        height: 49px;
+        width: 43%;
+        line-height: 13px;
+    }
+    
+    .pilihan-auditor-heading p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .pilihan-auditor-heading h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .pilihan-auditor-card-img {
+        height: 359px;
+    }
+    .hubungi-body {
+        flex-wrap: wrap;
+    }
+    .hubungi-call {
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,499 @@
+/*==========common csss========== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul ol{
+    list-style-type: none;
+}
+
+/*==========common csss========== */
+
+/* =============nav css start=========*/
+
+
+.navbar-main {
+	position: relative;
+	z-index: 999;
+	background-color: #eeedde;
+	padding-top: 23px;
+}
+.nav-logo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #203239;
+}
+.nav-logo span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    font-style: italic;
+    color: #203239;
+}
+.navbar-nav .nav-li{
+    position: relative;
+    margin: 0 60px;
+}
+.navbar-nav .nav-li .nav-a{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #203239;
+    padding: 0;
+}
+
+.navbar-nav .nav-li .nav-a::after{
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: -7px;
+    height: 3px;
+    opacity: 0;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #F6762E;
+}
+.navbar-nav .nav-li:hover .nav-a::after{
+    opacity: 1;
+    transition: all linear.4s;
+}
+
+/* =============nav css end=========*/
+
+
+/* =============banner css start=========*/
+
+#hero{
+    top: 0;
+    padding: 100px 0px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #EEEDDE;
+}
+.hero-left-item{
+    margin-top: 40px;
+}
+.hero-left-item h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+    margin-bottom: 10px;
+}
+.hero-left-item p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(32, 50, 57, 0.55);
+    width: 66%;
+    margin-bottom: 10px;
+}
+.location-item{
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.location-item input {
+	width: 70%;
+	height: 60px;
+	padding-left: 40px;
+	padding-right: 30px;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+    position: relative;
+}
+.location-item i {
+    font-size: 22px;
+	position: absolute;
+	z-index: 1;
+	transform: translate(15px,16px);
+}
+.location-item .location-btn {
+	width: 15%;
+	height: 60px;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+    background-color: #fff;
+}
+.hero-right-img{
+    padding: 10px;
+}
+
+/* =============banner css end=========*/
+
+
+/* =============Tahapan Pembelian Properti yang Mudah dan Cepat css start=========*/
+
+#tahapan-part{
+    padding: 100px 0px;
+}
+.tahapan-heading{
+    width: 49%;
+}
+.tahapan-heading h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+}
+.thapan-top-gap{
+    margin-top: 64px;
+}
+.thapan-box-body {
+    padding: 35px;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+}
+.thapan-box-body:hover{
+    transition: .8s;
+    box-shadow: 0px 0px 11px -3px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+.thapan-box-body::after {
+	content: '';
+	top: 33px;
+	left: 0;
+	width: 8px;
+	height: 30px;
+	position: absolute;
+	background-color: #ff7527;
+	border-radius: 5px;
+}
+.thapan-box-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thapan-box-heading h3{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);    
+}
+.thapan-box-heading span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 117, 39, 1);    
+}
+.thapan-box-body p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(32, 50, 57, 0.55);    
+}
+.thapan-box-body a{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+
+/* =============Tahapan Pembelian Properti yang Mudah dan Cepat css end=========*/
+
+
+/* =============Pilihan konsumen css start=========*/
+
+#pilihan-part{
+    padding: 70px 0;
+    z-index: -1;
+    background-color: rgba(238, 237, 222, 1);
+}
+.pillihan-heading p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 117, 39, 1);
+}
+.pillihan-heading h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+.pillihan-left{
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+.pillihan-left .pillihan-left-img-two {
+	top: 35px;
+	right: 133px;
+	position: absolute;
+	height: 100%;
+}
+.pillihan-right{
+    width: 100%;
+    margin-top: 60px;
+}
+.pillihan-right h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    width: 89%;
+    color: rgba(32, 50, 57, 1);
+}
+.pillihan-right p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+.pillihan-right-button-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    margin-top: 56px;
+}
+.pillihan-right-button-item a{
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    position: relative;
+    padding: 13px 41px;
+    border-radius: 10px;
+    color: rgba(32, 50, 57, 1);
+    font-family: 'Poppins',sans-serif;
+    border: 1px solid rgba(32, 50, 57, 1);
+    z-index: 1;
+}
+.pillihan-right-button-item a:hover{
+    transition: all linear .4s;
+    color: #fff;
+}
+.pillihan-right-button-item a::after{
+    content: '';
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 0;
+    position: absolute;
+    border-radius: 10px;
+    z-index: -1;
+    background-color: rgba(32, 50, 57, 1);
+    transition: all linear.4s;
+    opacity: 0;
+    color: #fff;
+}
+.pillihan-right-button-item a:hover::after{
+    color: #fff;
+    width:100%;
+    opacity: 1;
+}
+
+/* =============Pilihan konsumen css end=========*/
+
+
+/* =============Pilihan Auditor css start=========*/
+
+#pilihan-auditor-part{
+    padding: 100px 0;
+
+}
+.pilihan-auditor-heading{
+    margin-top: 20px;
+}
+.pilihan-auditor-heading p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 117, 39, 1);
+}
+.pilihan-auditor-heading h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+.pilihan-auditor-card{
+    margin: 0 auto;
+    width: 100%;
+}
+.pilihan-auditor-card-img {
+	overflow: hidden;
+	height: 500px;
+	border-radius: 28px;
+}
+.pilihan-auditor-card .pilihan-auditor-card-img:hover img{
+    transform: scale(1.08, 1.08);
+    transition: opacity 0.7s ease, transform 2s cubic-bezier(0, 0, 0.44, 1.18);
+}
+.pillihan-top-gap{
+    margin-top: 40px;
+}
+.pilihan-auditor-card-content{
+    margin-top: 20px;
+}
+.pilihan-auditor-card-content h3{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+.pilihan-auditor-card-content p{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+
+/* =============Pilihan Auditor css end=========*/
+
+
+/* =============Hubungi Kami css start=========*/
+
+#hubungi-part{
+    padding: 100px 0px;
+    background-color: rgba(238, 237, 222, 1);
+}
+.hubungi-heading h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    text-align: left;
+    color: rgba(32, 50, 57, 1);
+}
+.hubungi-body{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hubungi-call {
+	padding: 10px;
+	margin: 10px;
+	width: 50%;
+	border: 1px solid rgba(255, 117, 39, 0.5);
+	height: 170px;
+}
+.hubungi-call span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(32, 50, 57, 1);
+    padding-left: 40px;
+}
+.hubungi-call i {
+	font-size: 42px;
+}
+.hubungi-call p {
+	font-family: 'Poppins',sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 56px;
+	color: rgba(32, 50, 57, 1);
+	padding-left: 75px;
+}
+.hubungi-call a {
+	font-family: 'Poppins',sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	background-color: rgba(255, 117, 39, 0.2);
+	padding: 13px 41px;
+	border-radius: 10px;
+	color: rgba(255, 117, 39, 1);
+	margin-left: 65px;
+}
+.hubungi-call a:hover{
+    transition: all linear .3s;
+    color: #fff;
+	background-color: rgba(255, 117, 39, 0.8);
+}
+.hubungi-right-heading{
+    text-align: center;
+}
+.hubungi-right-heading h2{
+    font-family: 'Poppins',sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    color: rgba(32, 50, 57, 1);
+    text-align: center;
+}
+.hubungi-right-heading img{
+    margin-top: 40px;
+}
+
+
+/* =============Hubungi Kami css end=========*/
+
+
+/* =============footer css start=========*/
+#copyright{
+    padding: 15px 0;
+    background-color: rgba(32, 50, 57, 1);
+}
+.copyright-body{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-left a{
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;    
+    color: rgba(238, 237, 222, 1);
+}
+.copyright-left span{
+    font-style: italic;
+}
+.copy-right-icon i{
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+/* =============footer css end=========*/
+
